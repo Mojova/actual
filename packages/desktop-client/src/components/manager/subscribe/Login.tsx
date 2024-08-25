@@ -124,6 +124,7 @@ export function Login() {
             autoFocus={true}
             placeholder="Password"
             type="password"
+            autoComplete="current-password"
             onChangeValue={setPassword}
             style={{ flex: 1, marginRight: 10 }}
             onEnter={onSubmit}

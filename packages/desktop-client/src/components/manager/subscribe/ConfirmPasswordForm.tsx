@@ -42,6 +42,7 @@ export function ConfirmPasswordForm({ buttons, onSetPassword, onError }) {
         autoFocus={true}
         placeholder="Password"
         type={showPassword ? 'text' : 'password'}
+        autoComplete="new-password"
         value={password1}
         onChangeValue={setPassword1}
         onEnter={onSubmit}
@@ -49,6 +50,7 @@ export function ConfirmPasswordForm({ buttons, onSetPassword, onError }) {
       <BigInput
         placeholder="Confirm password"
         type={showPassword ? 'text' : 'password'}
+        autoComplete="new-password"
         value={password2}
         onChangeValue={setPassword2}
         style={{ marginTop: 10 }}

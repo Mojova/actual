@@ -174,6 +174,7 @@ export function CreateEncryptionKeyModal({
               <InitialFocus>
                 <Input
                   type={showPassword ? 'text' : 'password'}
+                  autoComplete="new-password"
                   style={{
                     width: isNarrowWidth ? '100%' : '50%',
                     height: isNarrowWidth ? styles.mobileMinHeight : undefined,

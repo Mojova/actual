@@ -74,6 +74,7 @@ export const SimpleFinInitialise = ({
               <Input
                 id="token-field"
                 type="password"
+                autoComplete="current-password"
                 value={token}
                 onChangeValue={value => {
                   setToken(value);

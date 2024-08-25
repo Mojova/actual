@@ -131,6 +131,7 @@ export function FixEncryptionKeyModal({
               <InitialFocus>
                 <Input
                   type={showPassword ? 'text' : 'password'}
+                  autoComplete="current-password"
                   style={{
                     width: isNarrowWidth ? '100%' : '50%',
                     height: isNarrowWidth ? styles.mobileMinHeight : undefined,

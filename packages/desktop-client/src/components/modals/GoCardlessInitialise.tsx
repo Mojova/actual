@@ -83,6 +83,7 @@ export const GoCardlessInitialise = ({
                 <Input
                   id="secret-id-field"
                   type="password"
+                  autoComplete="current-password"
                   value={secretId}
                   onChangeValue={value => {
                     setSecretId(value);
@@ -97,6 +98,7 @@ export const GoCardlessInitialise = ({
               <Input
                 id="secret-key-field"
                 type="password"
+                autoComplete="current-password"
                 value={secretKey}
                 onChangeValue={value => {
                   setSecretKey(value);
